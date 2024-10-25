@@ -84,3 +84,34 @@ button{
     border-radius: 5px;
     color: #1DDDBD;
 }
+
+
+
+@media(max-width: 400) {
+    img{
+        width: 40px;
+        height: 100%;
+    }
+    .logo{
+        font-size: 15px;
+    }
+    .contact{
+        font-size: 12px;
+        padding: 3px 20px;
+    }
+    .container{
+        gap: 10px;
+    }
+    h5{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 45px;
+    }
+    p{
+        font-size: smaller;
+    }
+    .left{
+        gap: 15px;
+    }
+}
